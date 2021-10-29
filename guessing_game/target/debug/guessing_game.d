@@ -1,1 +1,0 @@
-/Users/huangjinkun/Documents/rust_workspace/src/github.com/berryjam/learning-rust/guessing_game/target/debug/guessing_game: /Users/huangjinkun/Documents/rust_workspace/src/github.com/berryjam/learning-rust/guessing_game/src/main.rs
