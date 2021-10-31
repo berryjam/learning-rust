@@ -1,0 +1,1 @@
+/Users/huangjinkun/Documents/rust_workspace/src/github.com/berryjam/learning-rust/03_common_programming_concepts/functions/target/debug/functions: /Users/huangjinkun/Documents/rust_workspace/src/github.com/berryjam/learning-rust/03_common_programming_concepts/functions/src/main.rs
