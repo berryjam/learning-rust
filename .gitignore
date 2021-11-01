@@ -1,3 +1,4 @@
 hello_cargo/target
 guessing_game/target
 03_common_programming_concepts/*/target
+04_understanding_ownership/*/target

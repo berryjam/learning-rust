@@ -9,12 +9,18 @@
       <sourceFolder url="file://$MODULE_DIR$/03_common_programming_concepts/data_types/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/03_common_programming_concepts/functions/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/03_common_programming_concepts/variables/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/04_understanding_ownership/ownership/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/04_understanding_ownership/reference_and_borrowing/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/04_understanding_ownership/slice/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/03_common_programming_concepts/variables/target" />
       <excludeFolder url="file://$MODULE_DIR$/03_common_programming_concepts/data_types/target" />
       <excludeFolder url="file://$MODULE_DIR$/03_common_programming_concepts/functions/target" />
       <excludeFolder url="file://$MODULE_DIR$/03_common_programming_concepts/control_flow/target" />
+      <excludeFolder url="file://$MODULE_DIR$/04_understanding_ownership/ownership/target" />
+      <excludeFolder url="file://$MODULE_DIR$/04_understanding_ownership/reference_and_borrowing/target" />
+      <excludeFolder url="file://$MODULE_DIR$/04_understanding_ownership/slice/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
