@@ -12,6 +12,9 @@
       <sourceFolder url="file://$MODULE_DIR$/04_understanding_ownership/ownership/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/04_understanding_ownership/reference_and_borrowing/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/04_understanding_ownership/slice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/05_using_structs_to_structure_releated_data/an_example_program_using_structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/05_using_structs_to_structure_releated_data/defining_and_instantiating_structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/05_using_structs_to_structure_releated_data/method_syntax/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/03_common_programming_concepts/variables/target" />
@@ -21,6 +24,9 @@
       <excludeFolder url="file://$MODULE_DIR$/04_understanding_ownership/ownership/target" />
       <excludeFolder url="file://$MODULE_DIR$/04_understanding_ownership/reference_and_borrowing/target" />
       <excludeFolder url="file://$MODULE_DIR$/04_understanding_ownership/slice/target" />
+      <excludeFolder url="file://$MODULE_DIR$/05_using_structs_to_structure_releated_data/defining_and_instantiating_structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/05_using_structs_to_structure_releated_data/an_example_program_using_structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/05_using_structs_to_structure_releated_data/method_syntax/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
