@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/learning-rust.iml" filepath="$PROJECT_DIR$/learning-rust.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../starslabhq/zkdex-circuit/zkdex-circuit.iml" filepath="$PROJECT_DIR$/../../starslabhq/zkdex-circuit/zkdex-circuit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../starslabhq/zkdex-prover/zkdex-prover.iml" filepath="$PROJECT_DIR$/../../starslabhq/zkdex-prover/zkdex-prover.iml" />
     </modules>
   </component>
 </project>
