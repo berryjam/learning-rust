@@ -18,6 +18,14 @@
       <sourceFolder url="file://$MODULE_DIR$/06_enums_and_pattern_matching/concise_control_flow_with_if_let/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/06_enums_and_pattern_matching/defining_an_enum/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/06_enums_and_pattern_matching/the_match_control_flow_operator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/07_managing_growing_projects_with_package_crates_and_modules/bringing_paths_into_scope_with_the_use_keyword/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/07_managing_growing_projects_with_package_crates_and_modules/defining_modules_to_control_scope_and_privacy/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/07_managing_growing_projects_with_package_crates_and_modules/package_and_crates/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/07_managing_growing_projects_with_package_crates_and_modules/paths_for_referring_to_an_item_in_the_module_tree/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/07_managing_growing_projects_with_package_crates_and_modules/separating_modules_into_different_files/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/08_common_collections/storing_lists_of_values_with_vectors/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/08_common_collections/storing_keys_with_associated_values_in_hash_maps/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/08_common_collections/storing_utf8_encoded_text_with_strings/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/03_common_programming_concepts/variables/target" />
@@ -33,6 +41,14 @@
       <excludeFolder url="file://$MODULE_DIR$/06_enums_and_pattern_matching/defining_an_enum/target" />
       <excludeFolder url="file://$MODULE_DIR$/06_enums_and_pattern_matching/the_match_control_flow_operator/target" />
       <excludeFolder url="file://$MODULE_DIR$/06_enums_and_pattern_matching/concise_control_flow_with_if_let/target" />
+      <excludeFolder url="file://$MODULE_DIR$/07_managing_growing_projects_with_package_crates_and_modules/package_and_crates/target" />
+      <excludeFolder url="file://$MODULE_DIR$/07_managing_growing_projects_with_package_crates_and_modules/defining_modules_to_control_scope_and_privacy/target" />
+      <excludeFolder url="file://$MODULE_DIR$/07_managing_growing_projects_with_package_crates_and_modules/paths_for_referring_to_an_item_in_the_module_tree/target" />
+      <excludeFolder url="file://$MODULE_DIR$/07_managing_growing_projects_with_package_crates_and_modules/bringing_paths_into_scope_with_the_use_keyword/target" />
+      <excludeFolder url="file://$MODULE_DIR$/07_managing_growing_projects_with_package_crates_and_modules/separating_modules_into_different_files/target" />
+      <excludeFolder url="file://$MODULE_DIR$/08_common_collections/storing_lists_of_values_with_vectors/target" />
+      <excludeFolder url="file://$MODULE_DIR$/08_common_collections/storing_utf8_encoded_text_with_strings/target" />
+      <excludeFolder url="file://$MODULE_DIR$/08_common_collections/storing_keys_with_associated_values_in_hash_maps/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

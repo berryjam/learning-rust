@@ -4,3 +4,5 @@ guessing_game/target
 04_understanding_ownership/*/target
 05_using_structs_to_structure_releated_data/*/target
 06_enums_and_pattern_matching/*/target
+07_managing_growing_projects_with_package_crates_and_modules/*/target
+08_common_collections/*/target
