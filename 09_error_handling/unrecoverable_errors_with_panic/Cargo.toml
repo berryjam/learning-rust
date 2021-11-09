@@ -1,0 +1,12 @@
+[package]
+name = "unrecoverable_errors_with_panic"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+# abort模式相对unwind模式，收尾工作更少，但是需要让操作系统来完成一些清楚动作
+[profile.release]
+panic = 'abort'

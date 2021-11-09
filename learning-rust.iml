@@ -26,6 +26,9 @@
       <sourceFolder url="file://$MODULE_DIR$/08_common_collections/storing_lists_of_values_with_vectors/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/08_common_collections/storing_keys_with_associated_values_in_hash_maps/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/08_common_collections/storing_utf8_encoded_text_with_strings/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/09_error_handling/unrecoverable_errors_with_panic/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/09_error_handling/recover_errors_with_result/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/09_error_handling/to_panic_or_not_panic/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/03_common_programming_concepts/variables/target" />
@@ -49,6 +52,9 @@
       <excludeFolder url="file://$MODULE_DIR$/08_common_collections/storing_lists_of_values_with_vectors/target" />
       <excludeFolder url="file://$MODULE_DIR$/08_common_collections/storing_utf8_encoded_text_with_strings/target" />
       <excludeFolder url="file://$MODULE_DIR$/08_common_collections/storing_keys_with_associated_values_in_hash_maps/target" />
+      <excludeFolder url="file://$MODULE_DIR$/09_error_handling/unrecoverable_errors_with_panic/target" />
+      <excludeFolder url="file://$MODULE_DIR$/09_error_handling/recover_errors_with_result/target" />
+      <excludeFolder url="file://$MODULE_DIR$/09_error_handling/to_panic_or_not_panic/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
