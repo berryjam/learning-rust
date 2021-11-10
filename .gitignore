@@ -7,3 +7,4 @@ guessing_game/target
 07_managing_growing_projects_with_package_crates_and_modules/*/target
 08_common_collections/*/target
 09_error_handling/*/target
+10_generic_types_traits_and_lifetimes/*/target
