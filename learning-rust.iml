@@ -31,6 +31,9 @@
       <sourceFolder url="file://$MODULE_DIR$/09_error_handling/to_panic_or_not_panic/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/10_generic_types_traits_and_lifetimes/generic_data_types/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/10_generic_types_traits_and_lifetimes/generic_types_traits_and_lifetimes/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10_generic_types_traits_and_lifetimes/traits_defining_shared_behavior/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10_generic_types_traits_and_lifetimes/validating_references_with_lifetimes/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11_writing_automated_tests/how_to_write_tests/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/03_common_programming_concepts/variables/target" />
@@ -59,6 +62,9 @@
       <excludeFolder url="file://$MODULE_DIR$/09_error_handling/to_panic_or_not_panic/target" />
       <excludeFolder url="file://$MODULE_DIR$/10_generic_types_traits_and_lifetimes/generic_types_traits_and_lifetimes/target" />
       <excludeFolder url="file://$MODULE_DIR$/10_generic_types_traits_and_lifetimes/generic_data_types/target" />
+      <excludeFolder url="file://$MODULE_DIR$/10_generic_types_traits_and_lifetimes/traits_defining_shared_behavior/target" />
+      <excludeFolder url="file://$MODULE_DIR$/10_generic_types_traits_and_lifetimes/validating_references_with_lifetimes/target" />
+      <excludeFolder url="file://$MODULE_DIR$/11_writing_automated_tests/how_to_write_tests/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
