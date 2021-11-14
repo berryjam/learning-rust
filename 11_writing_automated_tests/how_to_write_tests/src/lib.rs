@@ -45,7 +45,7 @@ mod tests {
 
     #[test]
     fn another() {
-        panic!("Make this test fail");
+        panic!("Make this tests fail");
     }
 
     #[test]

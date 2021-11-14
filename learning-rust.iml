@@ -33,7 +33,10 @@
       <sourceFolder url="file://$MODULE_DIR$/10_generic_types_traits_and_lifetimes/generic_types_traits_and_lifetimes/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/10_generic_types_traits_and_lifetimes/traits_defining_shared_behavior/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/10_generic_types_traits_and_lifetimes/validating_references_with_lifetimes/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11_writing_automated_tests/controlling_how_tests_are_run/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/11_writing_automated_tests/how_to_write_tests/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11_writing_automated_tests/test_organization/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11_writing_automated_tests/test_organization/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/03_common_programming_concepts/variables/target" />
@@ -65,6 +68,8 @@
       <excludeFolder url="file://$MODULE_DIR$/10_generic_types_traits_and_lifetimes/traits_defining_shared_behavior/target" />
       <excludeFolder url="file://$MODULE_DIR$/10_generic_types_traits_and_lifetimes/validating_references_with_lifetimes/target" />
       <excludeFolder url="file://$MODULE_DIR$/11_writing_automated_tests/how_to_write_tests/target" />
+      <excludeFolder url="file://$MODULE_DIR$/11_writing_automated_tests/controlling_how_tests_are_run/target" />
+      <excludeFolder url="file://$MODULE_DIR$/11_writing_automated_tests/test_organization/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -81,7 +81,7 @@ fn read_username_from_file_with_api() -> Result<String, io::Error> {
 }
 
 // The ? Operator Can Be Used in Functions That Return Result
-// fn test() {
+// fn tests() {
 //     let f = File::open("hello.txt")?; 编译错误，?操作符只能用在返回Result类型的函数中
 // }
 
