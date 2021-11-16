@@ -1,5 +1,7 @@
-use std::env;
-use std::fs;
+use std::{env, process};
+use std::error::Error;
+
+use minigrep::Config;
 
 fn main() {
     // Reading the Argument Values
@@ -7,15 +9,18 @@ fn main() {
     println!("{:?}", args);
 
     // Saving the Argument Values in Variables
-    let query = &args[1];
-    let filename = &args[2];
+    let config = Config::new(&args).unwrap_or_else(|err| {
+        eprintln!("Problem parsing arguments: {}", err);
+        process::exit(1);
+    });
 
-    println!("Searching for {}", query);
-    println!("In file {}", filename);
+    println!("Searching for {}", config.query);
+    println!("In file {}", config.filename);
 
-    // Reading a File
-    let contents = fs::read_to_string(filename)
-        .expect("Something went wrong reading the file");
+    if let Err(e) = minigrep::run(config) {
+        eprintln!("Application error: {}", e);
 
-    println!("With text:\n{}", contents);
+        process::exit(1);
+    }
 }
+
