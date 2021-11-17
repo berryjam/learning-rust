@@ -10,3 +10,4 @@ guessing_game/target
 10_generic_types_traits_and_lifetimes/*/target
 11_writing_automated_tests/*/target
 12_an_io_project_building_a_command_line_program/*/target
+13_functional_language_features_iterators_and_closures/*/target

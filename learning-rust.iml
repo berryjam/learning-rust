@@ -38,6 +38,7 @@
       <sourceFolder url="file://$MODULE_DIR$/11_writing_automated_tests/test_organization/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/11_writing_automated_tests/test_organization/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/12_an_io_project_building_a_command_line_program/minigrep/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13_functional_language_features_iterators_and_closures/closures_anonymous_function_that_can_capture_their_environment/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/03_common_programming_concepts/variables/target" />
@@ -72,6 +73,7 @@
       <excludeFolder url="file://$MODULE_DIR$/11_writing_automated_tests/controlling_how_tests_are_run/target" />
       <excludeFolder url="file://$MODULE_DIR$/11_writing_automated_tests/test_organization/target" />
       <excludeFolder url="file://$MODULE_DIR$/12_an_io_project_building_a_command_line_program/minigrep/target" />
+      <excludeFolder url="file://$MODULE_DIR$/13_functional_language_features_iterators_and_closures/closures_anonymous_function_that_can_capture_their_environment/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
