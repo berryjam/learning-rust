@@ -39,6 +39,10 @@
       <sourceFolder url="file://$MODULE_DIR$/11_writing_automated_tests/test_organization/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/12_an_io_project_building_a_command_line_program/minigrep/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/13_functional_language_features_iterators_and_closures/closures_anonymous_function_that_can_capture_their_environment/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13_functional_language_features_iterators_and_closures/improving_out_io_project/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13_functional_language_features_iterators_and_closures/processing_a_series_of_items_with_iterators/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13_functional_language_features_iterators_and_closures/comparing_performance_loops_vs_iterators/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/14_more_about_cargo_and_crates_io/customizing_builds_with_release_profiles/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/03_common_programming_concepts/variables/target" />
@@ -74,6 +78,10 @@
       <excludeFolder url="file://$MODULE_DIR$/11_writing_automated_tests/test_organization/target" />
       <excludeFolder url="file://$MODULE_DIR$/12_an_io_project_building_a_command_line_program/minigrep/target" />
       <excludeFolder url="file://$MODULE_DIR$/13_functional_language_features_iterators_and_closures/closures_anonymous_function_that_can_capture_their_environment/target" />
+      <excludeFolder url="file://$MODULE_DIR$/13_functional_language_features_iterators_and_closures/processing_a_series_of_items_with_iterators/target" />
+      <excludeFolder url="file://$MODULE_DIR$/13_functional_language_features_iterators_and_closures/improving_out_io_project/target" />
+      <excludeFolder url="file://$MODULE_DIR$/13_functional_language_features_iterators_and_closures/comparing_performance_loops_vs_iterators/target" />
+      <excludeFolder url="file://$MODULE_DIR$/14_more_about_cargo_and_crates_io/customizing_builds_with_release_profiles/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

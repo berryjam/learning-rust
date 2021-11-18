@@ -1,0 +1,14 @@
+[package]
+name = "customizing_builds_with_release_profiles"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3 # 数字越大，表示优化等级越高，编译将更耗时。所以在发布时可以多花点时间让编译器在编译进行优化，后续运行时将有更好的性能。
