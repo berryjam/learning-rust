@@ -1,0 +1,1 @@
+/Users/huangjinkun/Documents/rust_workspace/src/github.com/berryjam/learning-rust/15_smart_pointers/running_code_on_cleanup_with_the_drop_trait/target/debug/running_code_on_cleanup_with_the_drop_trait: /Users/huangjinkun/Documents/rust_workspace/src/github.com/berryjam/learning-rust/15_smart_pointers/running_code_on_cleanup_with_the_drop_trait/src/main.rs

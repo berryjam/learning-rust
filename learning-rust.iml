@@ -45,7 +45,11 @@
       <sourceFolder url="file://$MODULE_DIR$/14_more_about_cargo_and_crates_io/cargo_workspaces/add-one/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/14_more_about_cargo_and_crates_io/cargo_workspaces/adder/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/14_more_about_cargo_and_crates_io/customizing_builds_with_release_profiles/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/14_more_about_cargo_and_crates_io/installing_binaries_from_crates_io_with_cargo_install/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/14_more_about_cargo_and_crates_io/publishing_a_crate_to_crates_io/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15_smart_pointers/running_code_on_cleanup_with_the_drop_trait/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15_smart_pointers/treating_smart_pointers_like_regular_references_with_the_deref_trait/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15_smart_pointers/using_box_to_point_to_data_on_the_heap/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/03_common_programming_concepts/variables/target" />
@@ -87,6 +91,10 @@
       <excludeFolder url="file://$MODULE_DIR$/14_more_about_cargo_and_crates_io/customizing_builds_with_release_profiles/target" />
       <excludeFolder url="file://$MODULE_DIR$/14_more_about_cargo_and_crates_io/publishing_a_crate_to_crates_io/target" />
       <excludeFolder url="file://$MODULE_DIR$/14_more_about_cargo_and_crates_io/cargo_workspaces/target" />
+      <excludeFolder url="file://$MODULE_DIR$/14_more_about_cargo_and_crates_io/installing_binaries_from_crates_io_with_cargo_install/target" />
+      <excludeFolder url="file://$MODULE_DIR$/15_smart_pointers/using_box_to_point_to_data_on_the_heap/target" />
+      <excludeFolder url="file://$MODULE_DIR$/15_smart_pointers/treating_smart_pointers_like_regular_references_with_the_deref_trait/target" />
+      <excludeFolder url="file://$MODULE_DIR$/15_smart_pointers/running_code_on_cleanup_with_the_drop_trait/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
