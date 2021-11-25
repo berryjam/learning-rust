@@ -47,9 +47,16 @@
       <sourceFolder url="file://$MODULE_DIR$/14_more_about_cargo_and_crates_io/customizing_builds_with_release_profiles/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/14_more_about_cargo_and_crates_io/installing_binaries_from_crates_io_with_cargo_install/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/14_more_about_cargo_and_crates_io/publishing_a_crate_to_crates_io/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15_smart_pointers/rc_the_reference_counted_smart_pointer/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15_smart_pointers/refcell_and_the_interior_mutability_pattern/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15_smart_pointers/reference_cycles_can_leak_memory/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/15_smart_pointers/running_code_on_cleanup_with_the_drop_trait/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/15_smart_pointers/treating_smart_pointers_like_regular_references_with_the_deref_trait/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/15_smart_pointers/using_box_to_point_to_data_on_the_heap/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16_fearless_concurrency/using_threads_to_run_code_simultaneously/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16_fearless_concurrency/extensible_concurrency_with_the_sync_and_send_traits/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16_fearless_concurrency/shared_state_concurrency/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16_fearless_concurrency/using_message_passing_to_transfer_data_between_threads/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/03_common_programming_concepts/variables/target" />
@@ -95,6 +102,13 @@
       <excludeFolder url="file://$MODULE_DIR$/15_smart_pointers/using_box_to_point_to_data_on_the_heap/target" />
       <excludeFolder url="file://$MODULE_DIR$/15_smart_pointers/treating_smart_pointers_like_regular_references_with_the_deref_trait/target" />
       <excludeFolder url="file://$MODULE_DIR$/15_smart_pointers/running_code_on_cleanup_with_the_drop_trait/target" />
+      <excludeFolder url="file://$MODULE_DIR$/15_smart_pointers/rc_the_reference_counted_smart_pointer/target" />
+      <excludeFolder url="file://$MODULE_DIR$/15_smart_pointers/refcell_and_the_interior_mutability_pattern/target" />
+      <excludeFolder url="file://$MODULE_DIR$/15_smart_pointers/reference_cycles_can_leak_memory/target" />
+      <excludeFolder url="file://$MODULE_DIR$/16_fearless_concurrency/using_threads_to_run_code_simultaneously/target" />
+      <excludeFolder url="file://$MODULE_DIR$/16_fearless_concurrency/using_message_passing_to_transfer_data_between_threads/target" />
+      <excludeFolder url="file://$MODULE_DIR$/16_fearless_concurrency/shared_state_concurrency/target" />
+      <excludeFolder url="file://$MODULE_DIR$/16_fearless_concurrency/extensible_concurrency_with_the_sync_and_send_traits/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
