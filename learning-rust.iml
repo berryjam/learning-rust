@@ -57,6 +57,9 @@
       <sourceFolder url="file://$MODULE_DIR$/16_fearless_concurrency/extensible_concurrency_with_the_sync_and_send_traits/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/16_fearless_concurrency/shared_state_concurrency/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/16_fearless_concurrency/using_message_passing_to_transfer_data_between_threads/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17_object_oriented_programming_features_of_rust/characteristics_of_object_oriented_languages/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17_object_oriented_programming_features_of_rust/implementing_an_object_oriented_design_pattern/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17_object_oriented_programming_features_of_rust/using_trait_objects_that_allow_for_values_of_different_types/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/03_common_programming_concepts/variables/target" />
@@ -109,6 +112,9 @@
       <excludeFolder url="file://$MODULE_DIR$/16_fearless_concurrency/using_message_passing_to_transfer_data_between_threads/target" />
       <excludeFolder url="file://$MODULE_DIR$/16_fearless_concurrency/shared_state_concurrency/target" />
       <excludeFolder url="file://$MODULE_DIR$/16_fearless_concurrency/extensible_concurrency_with_the_sync_and_send_traits/target" />
+      <excludeFolder url="file://$MODULE_DIR$/17_object_oriented_programming_features_of_rust/characteristics_of_object_oriented_languages/target" />
+      <excludeFolder url="file://$MODULE_DIR$/17_object_oriented_programming_features_of_rust/using_trait_objects_that_allow_for_values_of_different_types/target" />
+      <excludeFolder url="file://$MODULE_DIR$/17_object_oriented_programming_features_of_rust/implementing_an_object_oriented_design_pattern/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

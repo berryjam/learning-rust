@@ -1,0 +1,8 @@
+[package]
+name = "using_trait_objects_that_allow_for_values_of_different_types"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

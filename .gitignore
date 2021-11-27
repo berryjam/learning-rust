@@ -14,3 +14,4 @@ guessing_game/target
 14_more_about_cargo_and_crates_io/*/target
 15_smart_pointers/*/target
 16_fearless_concurrency/*/target
+17_object_oriented_programming_features_of_rust/*/target
