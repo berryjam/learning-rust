@@ -1,0 +1,1 @@
+pub mod never_type_never_returns;

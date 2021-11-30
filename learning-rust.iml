@@ -63,6 +63,11 @@
       <sourceFolder url="file://$MODULE_DIR$/18_patterns_and_matching/all_the_places_pattern_can_be_used/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/18_patterns_and_matching/pattern_syntax/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/18_patterns_and_matching/refutability_whether_a_pattern_might_fail_to_match/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19_advanced_features/advanced_traits/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19_advanced_features/advanced_types/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19_advanced_features/unsafe_rust/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19_advanced_features/advanced_functions_and_closures/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19_advanced_features/macros/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/03_common_programming_concepts/variables/target" />
@@ -121,6 +126,11 @@
       <excludeFolder url="file://$MODULE_DIR$/18_patterns_and_matching/all_the_places_pattern_can_be_used/target" />
       <excludeFolder url="file://$MODULE_DIR$/18_patterns_and_matching/refutability_whether_a_pattern_might_fail_to_match/target" />
       <excludeFolder url="file://$MODULE_DIR$/18_patterns_and_matching/pattern_syntax/target" />
+      <excludeFolder url="file://$MODULE_DIR$/19_advanced_features/unsafe_rust/target" />
+      <excludeFolder url="file://$MODULE_DIR$/19_advanced_features/advanced_traits/target" />
+      <excludeFolder url="file://$MODULE_DIR$/19_advanced_features/advanced_types/target" />
+      <excludeFolder url="file://$MODULE_DIR$/19_advanced_features/advanced_functions_and_closures/target" />
+      <excludeFolder url="file://$MODULE_DIR$/19_advanced_features/macros/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

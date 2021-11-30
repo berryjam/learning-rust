@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/../../starslabhq/zkdex-circuit/zkdex-circuit.iml" filepath="$PROJECT_DIR$/../../starslabhq/zkdex-circuit/zkdex-circuit.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../starslabhq/zkdex-prover/zkdex-prover.iml" filepath="$PROJECT_DIR$/../../starslabhq/zkdex-prover/zkdex-prover.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../matter-labs/zksync/zksync.iml" filepath="$PROJECT_DIR$/../../matter-labs/zksync/zksync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../zksync-test/zksync-test.iml" filepath="$PROJECT_DIR$/../zksync-test/zksync-test.iml" />
     </modules>
   </component>
 </project>
