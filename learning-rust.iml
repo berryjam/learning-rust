@@ -68,6 +68,9 @@
       <sourceFolder url="file://$MODULE_DIR$/19_advanced_features/unsafe_rust/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/19_advanced_features/advanced_functions_and_closures/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/19_advanced_features/macros/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20_final_project_building_a_multithreaded_web_server/building_a_single_threaded_web_server/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20_final_project_building_a_multithreaded_web_server/turning_out_single_threaded_server_into_a_multithreaded_server/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20_final_project_building_a_multithreaded_web_server/graceful_shutdown_and_cleanup/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/03_common_programming_concepts/variables/target" />
@@ -131,6 +134,9 @@
       <excludeFolder url="file://$MODULE_DIR$/19_advanced_features/advanced_types/target" />
       <excludeFolder url="file://$MODULE_DIR$/19_advanced_features/advanced_functions_and_closures/target" />
       <excludeFolder url="file://$MODULE_DIR$/19_advanced_features/macros/target" />
+      <excludeFolder url="file://$MODULE_DIR$/20_final_project_building_a_multithreaded_web_server/building_a_single_threaded_web_server/target" />
+      <excludeFolder url="file://$MODULE_DIR$/20_final_project_building_a_multithreaded_web_server/turning_out_single_threaded_server_into_a_multithreaded_server/target" />
+      <excludeFolder url="file://$MODULE_DIR$/20_final_project_building_a_multithreaded_web_server/graceful_shutdown_and_cleanup/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
