@@ -8,7 +8,7 @@ mod using_the_newtype_pattern_to_implement_external_traits_on_external_types;
 pub use crate::specifying_placeholder_types_in_trait_definitions_with_associated_types::advanced_traits::{IteratorTrait, Counter};
 pub use crate::default_generic_type_parameters_and_operator_overloading::default_generic_parameters_op_overload::Point;
 pub use crate::fully_qualified_syntax_for_disambiguation_calling_methods_with_the_same_name::fully_qualified_syntax::{Pilot, Wizard, Human, Animal, Dog};
-pub use crate::using_the_newtype_pattern_to_implement_external_traits_on_external_types::external_traits_on_external_types::Wrapper;
+pub use crate::using_the_newtype_pattern_to_implement_external_traits_on_external_types::external_traits_on_external_types::{Wrapper,Wrapper1};
 
 fn main() {
     // Specifying Placeholder Types in Trait Definitions with Associated Types
@@ -48,4 +48,7 @@ fn main() {
     // 第10章提到过，只允许对某个类型实现指定的接口的时候，要么接口或者类型是local crate
     let w = Wrapper(vec![String::from("hello"), String::from("world")]);
     println!("w = {}", w);
+
+    let w = Wrapper1(vec![String::from("hello"), String::from("world")], vec![1, 2, 3]);
+    println!("w.0 = {}", w.0.join(", "));
 }

@@ -7,7 +7,7 @@ use std::fmt;
  */
 pub struct Wrapper(pub Vec<String>);
 
-pub struct Wrapper1(Vec<String>, Vec<u32>);
+pub struct Wrapper1(pub Vec<String>, pub Vec<u32>);
 
 impl fmt::Display for Wrapper {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
