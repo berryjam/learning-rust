@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../zcash/halo2/halo2.iml" filepath="$PROJECT_DIR$/../../zcash/halo2/halo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../kafka-rust/kafka-rust/kafka-rust.iml" filepath="$PROJECT_DIR$/../../kafka-rust/kafka-rust/kafka-rust.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning-rust.iml" filepath="$PROJECT_DIR$/learning-rust.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../tomusdrw/rust-web3/rust-web3.iml" filepath="$PROJECT_DIR$/../../tomusdrw/rust-web3/rust-web3.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../starslabhq/zkdex-circuit/zkdex-circuit.iml" filepath="$PROJECT_DIR$/../../starslabhq/zkdex-circuit/zkdex-circuit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../starslabhq/zkdex-perpetual-watcher/zkdex-perpetual-watcher.iml" filepath="$PROJECT_DIR$/../../starslabhq/zkdex-perpetual-watcher/zkdex-perpetual-watcher.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../starslabhq/zkdex-prover/zkdex-prover.iml" filepath="$PROJECT_DIR$/../../starslabhq/zkdex-prover/zkdex-prover.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../matter-labs/zksync/zksync.iml" filepath="$PROJECT_DIR$/../../matter-labs/zksync/zksync.iml" />
       <module fileurl="file://$PROJECT_DIR$/../zksync-test/zksync-test.iml" filepath="$PROJECT_DIR$/../zksync-test/zksync-test.iml" />
