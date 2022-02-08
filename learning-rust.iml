@@ -71,6 +71,8 @@
       <sourceFolder url="file://$MODULE_DIR$/20_final_project_building_a_multithreaded_web_server/building_a_single_threaded_web_server/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/20_final_project_building_a_multithreaded_web_server/turning_out_single_threaded_server_into_a_multithreaded_server/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/20_final_project_building_a_multithreaded_web_server/graceful_shutdown_and_cleanup/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/a_hands_on_tutorial_for_zero_knowledge_proofs/part_I/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/a_hands_on_tutorial_for_zero_knowledge_proofs/part_II/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/03_common_programming_concepts/variables/target" />
@@ -137,6 +139,8 @@
       <excludeFolder url="file://$MODULE_DIR$/20_final_project_building_a_multithreaded_web_server/building_a_single_threaded_web_server/target" />
       <excludeFolder url="file://$MODULE_DIR$/20_final_project_building_a_multithreaded_web_server/turning_out_single_threaded_server_into_a_multithreaded_server/target" />
       <excludeFolder url="file://$MODULE_DIR$/20_final_project_building_a_multithreaded_web_server/graceful_shutdown_and_cleanup/target" />
+      <excludeFolder url="file://$MODULE_DIR$/a_hands_on_tutorial_for_zero_knowledge_proofs/part_II/target" />
+      <excludeFolder url="file://$MODULE_DIR$/a_hands_on_tutorial_for_zero_knowledge_proofs/part_I/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
