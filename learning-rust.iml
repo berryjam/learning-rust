@@ -73,6 +73,7 @@
       <sourceFolder url="file://$MODULE_DIR$/20_final_project_building_a_multithreaded_web_server/graceful_shutdown_and_cleanup/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/a_hands_on_tutorial_for_zero_knowledge_proofs/part_I/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/a_hands_on_tutorial_for_zero_knowledge_proofs/part_II/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/a_hands_on_tutorial_for_zero_knowledge_proofs/part_III/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/03_common_programming_concepts/variables/target" />
@@ -141,6 +142,7 @@
       <excludeFolder url="file://$MODULE_DIR$/20_final_project_building_a_multithreaded_web_server/graceful_shutdown_and_cleanup/target" />
       <excludeFolder url="file://$MODULE_DIR$/a_hands_on_tutorial_for_zero_knowledge_proofs/part_II/target" />
       <excludeFolder url="file://$MODULE_DIR$/a_hands_on_tutorial_for_zero_knowledge_proofs/part_I/target" />
+      <excludeFolder url="file://$MODULE_DIR$/a_hands_on_tutorial_for_zero_knowledge_proofs/part_III/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

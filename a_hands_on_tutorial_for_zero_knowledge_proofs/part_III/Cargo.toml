@@ -1,0 +1,11 @@
+[package]
+name = "part_III"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.4"
+sha2 = "0.10.1"
+hex = "0.3.1"
