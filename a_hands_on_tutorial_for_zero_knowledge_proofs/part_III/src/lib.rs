@@ -83,7 +83,7 @@ impl ZkMerkleTree {
         }
         for i in 0..res_data.len() {
             tree.push(hash_string(
-                String::from_utf8(res_data.get(i).unwrap().clone()).unwrap().as_str()));
+                String::from_utf8_lossy(&res_data[i][..]).as_ref()));
         }
         for i in (1..res_data.len()).rev() {
             let parent_hash = format!("{}{}", tree.get(i * 2).unwrap(), tree.get(i * 2 + 1).unwrap());
@@ -117,7 +117,7 @@ impl ZkMerkleTree {
 
 pub fn verify_zk_merkle_path(root: String, data_size: i64, value_id: i64,
                              value: Vec<u8>, path: Vec<String>) -> bool {
-    let mut cur = hash_string(String::from_utf8(value).unwrap().as_str());
+    let mut cur = hash_string(String::from_utf8_lossy(&value[..]).as_ref());
     // Due to zk padding, data_size needs to be multiplied by 2, as does the value_id
     let base = 2;
     let mut tree_node_id = value_id * 2 + i64::pow(base, ((data_size * 2) as f64).log2().ceil() as u32);
@@ -125,9 +125,9 @@ pub fn verify_zk_merkle_path(root: String, data_size: i64, value_id: i64,
     for sibling in iter {
         assert_eq!(tree_node_id > 1, true);
         if tree_node_id % 2 == 0 {
-            cur = hash_string(format!("{}{}", cur, sibling).as_str());
+            cur = hash_string(format!("{}{}", cur, *sibling).as_str());
         } else {
-            cur = hash_string(format!("{}{}", sibling, cur).as_str());
+            cur = hash_string(format!("{}{}", *sibling, cur).as_str());
         }
         tree_node_id = tree_node_id / 2;
     }
@@ -136,7 +136,7 @@ pub fn verify_zk_merkle_path(root: String, data_size: i64, value_id: i64,
     root == cur
 }
 
-pub fn get_proof(problem: &Vec<i64>, assignment: &Vec<i64>, num_queries: i64) -> Vec<Proof> {
+pub fn get_proof(problem: Vec<i64>, assignment: Vec<i64>, num_queries: i64) -> Vec<Proof> {
     let mut proofs = Vec::new();
     let mut randomness_seed = format!("{:?}", problem);
     for i in 0..num_queries {
@@ -165,7 +165,7 @@ pub fn get_proof(problem: &Vec<i64>, assignment: &Vec<i64>, num_queries: i64) ->
     proofs
 }
 
-pub fn verify_proof(problem: &Vec<i64>, proofs: Vec<Proof>) -> bool {
+pub fn verify_proof(problem: Vec<i64>, proofs: Vec<Proof>) -> bool {
     let mut proof_checks_out = true;
     let mut randomness_seed = format!("{:?}", problem);
     for proof in proofs {
@@ -189,19 +189,20 @@ pub fn verify_proof(problem: &Vec<i64>, proofs: Vec<Proof>) -> bool {
 }
 
 pub fn test() {
-    let proof = Proof {
-        merkle_root: "".to_string(),
-        query_idx: 0,
-        first_query_val: vec![],
-        first_auth_path: vec![],
-        second_query_val: vec![],
-        second_auth_path: vec![],
-    };
-    println!("proof:{:?}", proof);
-    let zk_merkle_tree = ZkMerkleTree::new(vec![b"Yes".to_vec(), b"Sir".to_vec(), b"I Can".to_vec(), b"Boogie".to_vec()]);
+    let data = vec![b"Yes".to_vec(), b"Sir".to_vec(), b"I Can".to_vec(), b"Boogie!".to_vec()];
+    let zk_merkle_tree = ZkMerkleTree::new(data.clone());
     println!("{:?}", zk_merkle_tree.tree);
     println!("{}", zk_merkle_tree.get_root());
     let (val, auth_path) = zk_merkle_tree.get_val_and_path(1);
     println!("val:{} auth_path:{:?}", String::from_utf8(val.clone()).unwrap(), auth_path);
-    println!("verify_zk_merkle_path res:{}", verify_zk_merkle_path(zk_merkle_tree.get_root(), zk_merkle_tree.data.len() as i64, 1, val, auth_path));
+    println!("verify_zk_merkle_path res:{}", verify_zk_merkle_path(zk_merkle_tree.get_root(), data.clone().len() as i64, 1, val, auth_path));
+}
+
+pub fn test_proof() -> bool {
+    let num_queries = 4;
+    let problem = vec![1, 2, 3, 6, 6, 6, 12];
+    let assignment = vec![1, 1, 1, -1, -1, -1, 1];
+    let proofs = get_proof(problem.clone(), assignment.clone(), num_queries);
+    println!("{:?}", proofs);
+    verify_proof(problem.clone(), proofs)
 }
